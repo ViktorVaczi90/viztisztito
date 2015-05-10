@@ -189,8 +189,8 @@
 <hole x="7.62" y="96.52" drill="3.2"/>
 <hole x="7.62" y="5.08" drill="3.2"/>
 <text x="183.1975" y="1.27" size="1.778" layer="21">WATER LEVEL SENSORS</text>
-<text x="93.6625" y="1.27" size="1.778" layer="21">DC8V</text>
-<text x="83.185" y="0.9525" size="1.778" layer="21">AC12v</text>
+<text x="94.2975" y="1.27" size="1.27" layer="21">DC8V</text>
+<text x="84.1375" y="1.27" size="1.27" layer="21">AC12v</text>
 <text x="68.58" y="2.54" size="1.016" layer="21">230VACT</text>
 <text x="66.04" y="2.54" size="1.016" layer="21">PE</text>
 <text x="50.8" y="2.54" size="1.016" layer="21">PE</text>
@@ -211,9 +211,11 @@
 <text x="43.18" y="12.065" size="0.6096" layer="21">MOTOR1 OUT</text>
 <text x="38.1" y="12.065" size="0.6096" layer="21">MOTOR2 IN</text>
 <text x="27.94" y="12.065" size="0.6096" layer="21">MOTOR2 OUT</text>
-<text x="93.6625" y="13.0175" size="1.778" layer="21">DC8V</text>
-<text x="83.185" y="13.0175" size="1.778" layer="21">AC12v</text>
+<text x="94.2975" y="12.7" size="1.27" layer="21">DC8V</text>
+<text x="84.1375" y="12.7" size="1.27" layer="21">AC12v</text>
 <text x="183.1975" y="10.4775" size="1.778" layer="21">WATER LEVEL SENSORS</text>
+<text x="89.8525" y="1.27" size="1.27" layer="21">GND</text>
+<text x="89.8525" y="12.7" size="1.27" layer="21">GND</text>
 </plain>
 <libraries>
 <library name="trafo">
