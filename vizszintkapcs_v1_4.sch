@@ -8512,22 +8512,32 @@ edited by Yassen</description>
 <wire x1="-15" y1="5" x2="-15" y2="-5" width="0.127" layer="27"/>
 </package>
 <package name="TERMINAL_BLOCK_10:METZ_AST0451004">
-<pad name="P$8" x="12.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
-<pad name="P$7" x="7.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
-<pad name="P$6" x="2.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
-<pad name="P$5" x="-2.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
-<pad name="P$4" x="-7.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
-<pad name="P$3" x="-12.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
-<text x="-10.1" y="5.3" size="1.27" layer="25">&gt;Name</text>
-<text x="4.9" y="5.3" size="1.27" layer="27">&gt;Value</text>
+<pad name="P$8@1" x="12.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$7@1" x="7.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$6@1" x="2.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$5@1" x="-2.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$4@1" x="-7.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$3@1" x="-12.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<text x="-10.735" y="8.755" size="1.27" layer="25">&gt;Name</text>
+<text x="8.075" y="8.475" size="1.27" layer="27">&gt;Value</text>
 <wire x1="-25.1" y1="-4.7" x2="24.9" y2="-4.7" width="0.127" layer="27"/>
-<wire x1="24.9" y1="-4.7" x2="24.9" y2="5.3" width="0.127" layer="27"/>
-<wire x1="24.9" y1="5.3" x2="-25.1" y2="5.3" width="0.127" layer="27"/>
-<wire x1="-25.1" y1="5.3" x2="-25.1" y2="-4.7" width="0.127" layer="27"/>
-<pad name="P$2" x="-17.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
-<pad name="P$1" x="-22.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
-<pad name="P$9" x="17.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
-<pad name="P$10" x="22.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<wire x1="24.9" y1="-4.7" x2="24.9" y2="7.9" width="0.127" layer="27"/>
+<wire x1="24.9" y1="7.9" x2="-25.1" y2="7.9" width="0.127" layer="27"/>
+<wire x1="-25.1" y1="7.9" x2="-25.1" y2="-4.7" width="0.127" layer="27"/>
+<pad name="P$2@1" x="-17.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$1@1" x="-22.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$9@1" x="17.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$10@1" x="22.5" y="0" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$1@2" x="-22.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$2@2" x="-17.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$3@2" x="-12.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$4@2" x="-7.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$5@2" x="-2.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$6@2" x="2.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$7@2" x="7.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$8@2" x="12.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$9@2" x="17.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
+<pad name="P$10@2" x="22.5" y="5.2" drill="1.4" diameter="2.54" shape="octagon"/>
 </package>
 <package name="TERMINAL_BLOCK_4:METZ_AST1350404">
 <pad name="P$1" x="-7.5" y="0" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
@@ -8709,16 +8719,16 @@ edited by Yassen</description>
 <devices>
 <device name="" package="TERMINAL_BLOCK_10:METZ_AST0451004">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$10" pad="P$10"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-<connect gate="G$1" pin="P$6" pad="P$6"/>
-<connect gate="G$1" pin="P$7" pad="P$7"/>
-<connect gate="G$1" pin="P$8" pad="P$8"/>
-<connect gate="G$1" pin="P$9" pad="P$9"/>
+<connect gate="G$1" pin="P$1" pad="P$1@1 P$1@2"/>
+<connect gate="G$1" pin="P$10" pad="P$10@1 P$10@2"/>
+<connect gate="G$1" pin="P$2" pad="P$2@1 P$2@2"/>
+<connect gate="G$1" pin="P$3" pad="P$3@1 P$3@2"/>
+<connect gate="G$1" pin="P$4" pad="P$4@1 P$4@2"/>
+<connect gate="G$1" pin="P$5" pad="P$5@1 P$5@2"/>
+<connect gate="G$1" pin="P$6" pad="P$6@1 P$6@2"/>
+<connect gate="G$1" pin="P$7" pad="P$7@1 P$7@2"/>
+<connect gate="G$1" pin="P$8" pad="P$8@1 P$8@2"/>
+<connect gate="G$1" pin="P$9" pad="P$9@1 P$9@2"/>
 </connects>
 <technologies>
 <technology name=""/>
