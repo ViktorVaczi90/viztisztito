@@ -14031,10 +14031,8 @@ Kimenetek:
 <moduleinst name="SSR_MOT" module="SSR_MOTOR_CONTROL" x="345.44" y="154.94"/>
 <moduleinst name="WL1" module="WATER_LEVEL_SENSOR" x="337.82" y="104.14"/>
 <moduleinst name="REL_MOT" module="RELAY_MOTOR_CONTROL" x="345.44" y="129.54"/>
-<moduleinst name="WL3" module="WATER_LEVEL_SENSOR" x="337.82" y="53.34"/>
 <moduleinst name="WL4" module="WATER_LEVEL_SENSOR" x="337.82" y="27.94"/>
 <moduleinst name="WL5" module="WATER_LEVEL_SENSOR" x="337.82" y="2.54"/>
-<moduleinst name="WL6" module="WATER_LEVEL_SENSOR" x="337.82" y="-22.86"/>
 <moduleinst name="WL2" module="WATER_LEVEL_SENSOR" x="337.82" y="78.74"/>
 <moduleinst name="5-&gt;3_2" module="5-3VANALOG_TRANSLATE" x="439.42" y="139.7"/>
 <moduleinst name="5-&gt;3_1" module="5-3VANALOG_TRANSLATE" x="439.42" y="165.1"/>
@@ -14154,6 +14152,16 @@ Kimenetek:
 <wire x1="200.66" y1="-66.04" x2="198.12" y2="-66.04" width="0.1524" layer="91"/>
 <label x="198.12" y="-66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="P$3"/>
+<wire x1="261.62" y1="45.72" x2="271.78" y2="45.72" width="0.1524" layer="91"/>
+<label x="264.16" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="P$6"/>
+<wire x1="261.62" y1="30.48" x2="271.78" y2="30.48" width="0.1524" layer="91"/>
+<label x="264.16" y="30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -14227,11 +14235,6 @@ Kimenetek:
 <portref moduleinst="WL1" port="GND"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="60.96" x2="297.18" y2="60.96" width="0.1524" layer="91"/>
-<label x="297.18" y="60.96" size="1.778" layer="95"/>
-<portref moduleinst="WL3" port="GND"/>
-</segment>
-<segment>
 <wire x1="314.96" y1="35.56" x2="297.18" y2="35.56" width="0.1524" layer="91"/>
 <label x="297.18" y="35.56" size="1.778" layer="95"/>
 <portref moduleinst="WL4" port="GND"/>
@@ -14240,11 +14243,6 @@ Kimenetek:
 <wire x1="314.96" y1="10.16" x2="297.18" y2="10.16" width="0.1524" layer="91"/>
 <label x="297.18" y="10.16" size="1.778" layer="95"/>
 <portref moduleinst="WL5" port="GND"/>
-</segment>
-<segment>
-<wire x1="314.96" y1="-15.24" x2="297.18" y2="-15.24" width="0.1524" layer="91"/>
-<label x="297.18" y="-15.24" size="1.778" layer="95"/>
-<portref moduleinst="WL6" port="GND"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -14412,11 +14410,6 @@ Kimenetek:
 <portref moduleinst="WL2" port="TRANS_OUT"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="48.26" x2="297.18" y2="48.26" width="0.1524" layer="91"/>
-<label x="297.18" y="48.26" size="1.778" layer="95"/>
-<portref moduleinst="WL3" port="TRANS_OUT"/>
-</segment>
-<segment>
 <wire x1="314.96" y1="22.86" x2="297.18" y2="22.86" width="0.1524" layer="91"/>
 <label x="297.18" y="22.86" size="1.778" layer="95"/>
 <portref moduleinst="WL4" port="TRANS_OUT"/>
@@ -14425,11 +14418,6 @@ Kimenetek:
 <wire x1="314.96" y1="-2.54" x2="297.18" y2="-2.54" width="0.1524" layer="91"/>
 <label x="297.18" y="-2.54" size="1.778" layer="95"/>
 <portref moduleinst="WL5" port="TRANS_OUT"/>
-</segment>
-<segment>
-<wire x1="314.96" y1="-27.94" x2="297.18" y2="-27.94" width="0.1524" layer="91"/>
-<label x="297.18" y="-27.94" size="1.778" layer="95"/>
-<portref moduleinst="WL6" port="TRANS_OUT"/>
 </segment>
 </net>
 <net name="AC24V" class="0">
@@ -14593,18 +14581,6 @@ Kimenetek:
 <label x="264.16" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3_WATER_IN" class="0">
-<segment>
-<portref moduleinst="WL3" port="WATER_IN_1"/>
-<wire x1="314.96" y1="50.8" x2="297.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="297.18" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="P$3"/>
-<wire x1="261.62" y1="45.72" x2="271.78" y2="45.72" width="0.1524" layer="91"/>
-<label x="264.16" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="4_WATER_IN" class="0">
 <segment>
 <portref moduleinst="WL4" port="WATER_IN_1"/>
@@ -14629,18 +14605,6 @@ Kimenetek:
 <label x="264.16" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="6_WATER_IN" class="0">
-<segment>
-<portref moduleinst="WL6" port="WATER_IN_1"/>
-<wire x1="314.96" y1="-25.4" x2="297.18" y2="-25.4" width="0.1524" layer="91"/>
-<label x="297.18" y="-25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="P$6"/>
-<wire x1="261.62" y1="30.48" x2="271.78" y2="30.48" width="0.1524" layer="91"/>
-<label x="264.16" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DC3.3V" class="0">
 <segment>
 <wire x1="185.42" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
@@ -14663,11 +14627,6 @@ Kimenetek:
 <portref moduleinst="WL2" port="VCC"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="58.42" x2="297.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="297.18" y="58.42" size="1.778" layer="95"/>
-<portref moduleinst="WL3" port="VCC"/>
-</segment>
-<segment>
 <wire x1="314.96" y1="33.02" x2="297.18" y2="33.02" width="0.1524" layer="91"/>
 <label x="297.18" y="33.02" size="1.778" layer="95"/>
 <portref moduleinst="WL4" port="VCC"/>
@@ -14677,18 +14636,8 @@ Kimenetek:
 <label x="297.18" y="7.62" size="1.778" layer="95"/>
 <portref moduleinst="WL5" port="VCC"/>
 </segment>
-<segment>
-<wire x1="314.96" y1="-17.78" x2="297.18" y2="-17.78" width="0.1524" layer="91"/>
-<label x="297.18" y="-17.78" size="1.778" layer="95"/>
-<portref moduleinst="WL6" port="VCC"/>
-</segment>
 </net>
 <net name="P1.4" class="0">
-<segment>
-<portref moduleinst="WL3" port="!WATER_LEVEL_1"/>
-<wire x1="314.96" y1="45.72" x2="297.18" y2="45.72" width="0.1524" layer="91"/>
-<label x="297.18" y="45.72" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="502.92" y1="236.22" x2="502.92" y2="254" width="0.1524" layer="91"/>
 <pinref part="GPIO_CON1" gate="1" pin="9"/>
@@ -14744,11 +14693,6 @@ Kimenetek:
 </segment>
 </net>
 <net name="P2.5" class="0">
-<segment>
-<portref moduleinst="WL6" port="!WATER_LEVEL_1"/>
-<wire x1="314.96" y1="-30.48" x2="297.18" y2="-30.48" width="0.1524" layer="91"/>
-<label x="297.18" y="-30.48" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="495.3" y1="236.22" x2="495.3" y2="254" width="0.1524" layer="91"/>
 <pinref part="GPIO_CON1" gate="1" pin="15"/>
