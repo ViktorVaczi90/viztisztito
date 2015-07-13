@@ -14352,26 +14352,6 @@ Kimenetek:
 <portref moduleinst="REL_MOT" port="DC5V"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="VDD"/>
-<wire x1="383.54" y1="190.5" x2="365.76" y2="190.5" width="0.1524" layer="91"/>
-<label x="370.84" y="190.5" size="1.778" layer="95"/>
-<wire x1="365.76" y1="190.5" x2="365.76" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="365.76" y1="193.04" x2="360.68" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="VREF"/>
-<wire x1="383.54" y1="195.58" x2="370.84" y2="195.58" width="0.1524" layer="91"/>
-<label x="370.84" y="195.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="A" pin="VDD"/>
-<wire x1="360.68" y1="248.92" x2="360.68" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="256.54" x2="383.54" y2="256.54" width="0.1524" layer="91"/>
-<label x="363.22" y="256.54" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C3" gate="G$1" pin="+"/>
 <wire x1="193.04" y1="17.78" x2="203.2" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="15.24" x2="193.04" y2="17.78" width="0.1524" layer="91"/>
@@ -14635,6 +14615,26 @@ Kimenetek:
 <wire x1="314.96" y1="7.62" x2="297.18" y2="7.62" width="0.1524" layer="91"/>
 <label x="297.18" y="7.62" size="1.778" layer="95"/>
 <portref moduleinst="WL5" port="VCC"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="VREF"/>
+<wire x1="383.54" y1="195.58" x2="370.84" y2="195.58" width="0.1524" layer="91"/>
+<label x="370.84" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="193.04" x2="368.3" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="193.04" x2="368.3" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="VDD"/>
+<wire x1="368.3" y1="190.5" x2="383.54" y2="190.5" width="0.1524" layer="91"/>
+<label x="370.84" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="248.92" x2="360.68" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="A" pin="VDD"/>
+<wire x1="360.68" y1="256.54" x2="383.54" y2="256.54" width="0.1524" layer="91"/>
+<label x="360.68" y="256.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P1.4" class="0">
